@@ -1,0 +1,12 @@
+PROYECTO FINAL DE ASIGNATURA:
+
+Entrega -> máximo el 8 de marzo. Dia del examen.
+
+Hay que implementar:
+
+- HTML
+- CSS
+- Bootstrap
+- Flex
+- Grid
+- Multimedia

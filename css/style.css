@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.form-control-dark {
+border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+border-color: #fff;
+box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+outline: 0;
+}
+
+body, html{
+    background-color: rgb(178, 178, 179);
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    overflow: visible;
+    padding: 30px;
+}
+
+#videoLogistica {
+    text-align: center;
+    background-color: rgb(196, 196, 196);
+    padding-bottom: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#logistica {
+    text-align: center;
+    border: 1px solid gray;
+    background-color: beige;
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    width: 80%;
+    border: 1px solid #000;
+    margin: 50px;
+    margin: auto;
+}
+
+ table th, table td {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+#table {
+    text-align: center;
+    border: 1px solid gray;
+    background-color: beige;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(196, 196, 196);
+}
+
+.flex {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+#explicaciones {
+    padding: 50px;
+    border: 1px solid gray;
+    background-color: beige;
+}
+
+.gridlayout {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: auto auto auto;
+    border: 3px solid bisque;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.formulario {
+    grid-column: 1/2;
+    padding: 30px;
+    text-align: center;
+    background-color:rgb(207, 194, 194) ;
+    width: 100%;
+    border: 1px solid bisque;
+}
+
+.sobremi {
+    text-align: center;
+    padding: 20px;
+    grid-column: 2/3;
+    grid-row: 1/1;
+    background-color: beige;
+    border: 1px solid bisque;
+}
+
+.redessociales {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(196, 196, 196);
+
+}
